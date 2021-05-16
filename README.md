@@ -28,7 +28,7 @@ Após ter feito essa troca, coloque o código abaixo no arquivo informado mais a
 ```
 cat << EOF
 # Procura o pendrive conectado:
-search --no-floppy --fs-uuid --set foundboot CA0A-545
+search --no-floppy --fs-uuid --set foundboot CA0A-5452
 
 # Caso encontre:
 if [ "\${foundboot}" ] ; then
