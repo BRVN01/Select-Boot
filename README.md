@@ -20,9 +20,9 @@ Antes de tudo, no terminal, rode o comando `blkid` para obter o UUID do pendrive
 $ sudo blkid 
 /dev/sde1: UUID="CA0A-5452" TYPE="vfat" PARTUUID="800f8612-01"
 
-# Acima o exemplo do pendrive que escolhi, removi as demais indentificações para não atrapalhar.
+# Acima o exemplo do pendrive que escolhi, removi as demais identificações para não atrapalhar.
 ```
-Agora com o UUID *CA0A-5452* em mãos, vamos modifiar o arquivo principal do Grub, 
+Agora com o UUID *CA0A-5452* em mãos, vamos modificar o arquivo principal do Grub, 
 você deve modificar o arquivo `/etc/grub.d/00_header`, troque-o no código abaixo pelo seu:
 ```
 cat << EOF
