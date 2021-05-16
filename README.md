@@ -1,6 +1,6 @@
 # Select-Boot
 Este projeto tem como inspiração um projeto desenvolvido por [Stephen Holdaway](https://github.com/stecman/hw-boot-selection), 
-onde ele cria um hardware para selecionar qual Sistema Operacional será inicializado no momento do Boot do sistema, 
+onde ele cria um dispositivo para selecionar qual Sistema Operacional será inicializado no momento do Boot do sistema, 
 ambos os projeto (meu e dele) tem como principal objetivo, trabalhar em cima do Grub.
 
 Veja esse [site](https://hackaday.io/project/179539-hardware-boot-selection-switch) para mais detalhes do projeto dele.
