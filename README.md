@@ -23,7 +23,8 @@ $ sudo blkid
 # Acima o exemplo do pendrive que escolhi, removi as demais identificações para não atrapalhar.
 ```
 Agora com o UUID *CA0A-5452* em mãos, vamos modificar o arquivo principal do Grub, 
-você deve modificar o arquivo `/etc/grub.d/00_header`, troque-o no código abaixo pelo seu:
+você deve modificar o arquivo `/etc/grub.d/00_header`, troque no código abaixo o UUID do pendrive pelo seu UUID.
+Após ter feito essa troca, coloque o código abaixo no arquivo informado mais acima (adicione o código abaixo ao final do arquivo):
 ```
 cat << EOF
 # Procura o pendrive conectado:
