@@ -15,7 +15,7 @@ caso o pendrive esteja conectado, ele deve iniciar o Windows, caso não esteja, 
 Um benefício é que você ainda vai poder usar seu pendrive como pendrive, além dele também ser sua chave para iniciar o Windows automaticamente.
 
 ## Colocando a mão na massa
-Antes de tudo, no terminal, rode o comando `blkid` para obter o UUID do pendrive que você escolheu (o pendrive precisa estar conectado ;) ).
+Antes de tudo, no terminal, rode o comando `blkid` para obter o UUID do pendrive que você escolheu (o pendrive precisa estar conectado 🙃).
 ```
 $ sudo blkid 
 /dev/sde1: UUID="CA0A-5452" TYPE="vfat" PARTUUID="800f8612-01"
